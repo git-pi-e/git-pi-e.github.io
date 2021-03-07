@@ -24,7 +24,21 @@
 
 /* General Styles */
 body{
-    background: rgb(24, 20, 20);
-    font-family: 'Quicksand', sans-serif;
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    font-family: var(--ff-primary);
+    margin: auto;
+
+
     
 }
+
+.my-works{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+
