@@ -1,0 +1,30 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+:root{
+    --ff-primary: 'Quicksand', sans-serif;
+    --ff-secondary: 'Nunito', sans-serif;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-dark: #272525;
+    --clr-light: #f5f0f0;
+    --clr-accent: #42f08d;
+
+    
+    
+}
+
+
+/* General Styles */
+body{
+    background: rgb(24, 20, 20);
+    font-family: 'Quicksand', sans-serif;
+    
+}
