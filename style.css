@@ -1,88 +1,70 @@
-
-*,
-*::before,
-*::after{
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-
-:root{
-    --ff-primary: 'Quicksand', sans-serif;
-    --ff-secondary: 'Nunito', sans-serif;
-
-    --fw-reg: 300;
-    --fw-bold: 900;
-
-    --clr-dark: #272525;
-    --clr-light: #f5f0f0;
-    --clr-accent: #42f08d;
-
-    /* --fs-h1: 3rem; */
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
-    --fs-body: 1rem;
-    
+html{
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color:  #f5f0f0;
+    background: #272525;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
-
-/* General Styles */
 body{
-    background: var(--clr-light);
-    color: var(--clr-dark);
-    font-family: var(--ff-primary);
-    /* margin: 5%; */
-    font-family: var(--ff-primary);
-    font-size: var(--fs-body);
-    line-height: 1.6;
-        
+    background-color: #272525;
+    background-size: cover;
 }
 
-/* .my-works{
-    display: flex;
-    flex-direction: row;   
-    flex-wrap: wrap;
-
-} */
-
-@media(max-width: 800px){
-    :root{
-        --fs-h1: 4.5;
-        --fs-h3: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
-    }
+section{
+    margin: 15%;
+    padding: 12%;
+    justify-content: center;
 }
-
-img{
-    display: block;
-    max-width: 100%;
-    
-}
-
-h1, h2, h3{
-    line-height: 1.1;
-    margin: 0;
-
-}
-
-/* h1{font-size: var(--fs-h1);} */
-h2{font-size: var(--fs-h2);}
-h3{font-size: var(--fs-h3);}
-
-/* 
-section titles and subtitles */
 
 .section__title{
-    margin-bottom: 4px;
+    justify-content: center;
+
 }
 
-.section__subtitle{
-    margin: auto;
-    font-size: var(--fs-h3);
+
+
+
+
+/* My Work */
+.my-work{
+    background-image: url(./img/bg-img.jpg);
+    margin: 0%;
+
 }
 
-.section__subtitle--intro,
-.section__subtitle--aboutme{
-    background: var(--clr-accent);
-    font-family: var(--ff-secondary);
+
+
+/* About Me */
+.aboutme{
+    background-image: url(./img/abtme-img.jpg);
+    margin: 0%;
+
 }
+
+#myself{
+    float: right;
+    max-block-size: 10em;
+    margin-right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Connect With Me */

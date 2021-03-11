@@ -24,24 +24,26 @@
     <button class="nav-toggle">
         <span class="nav-button"></span>
     </button>
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__list">Home</li>
-            <li class="nav__list">My Work</li>
-            <li class="nav__list">About Me</li>
-            <li class="nav__list">Connect with Me</li>
-        </ul>
+    <div class="nav-div"><nav class="nav">
+        
+            <a class="nav__list" href="#home">Home</a>
+            <a class="nav__list" href="#my-work">My Work</a>
+            <a class="nav__list" href="#about-me">About Me</a>
+            <a class="nav__list" href="#handles">Connect with Me</a>
+        
     </nav>
+    </div>
     </header>
 
     <!-- Introduction -->
     <section class="intro" id="home">
         <h1 class="section__title section__title--intro">Hello, I am <strong>Piyush Mohite</strong></h1>
-        <p class="section__subtitle section__subtitle--intro">Undergraduate at BITS Pilani, Goa Campus</p>
+        <div class="intro__sub"><p class="section__subtitle section__subtitle--intro">Undergraduate at BITS Pilani, Goa Campus</p></div>
+       
     </section>
 
         <!-- My Work -->
-    <section class="my-work" id="work">
+    <section class="my-work" id="my-work">
         <h2 class="section__title section__title--my-work">What I do</h2>
         <div class="my-works">
             <div class="work">
@@ -62,10 +64,11 @@
         <!-- About Me -->
 
     <section class="aboutme" id="about-me">
-        <h2 class="section__title section__title--aboutme">About Me</h2>
+        <div class="container"><h2 class="section__title section__title--aboutme">About Me</h2></div>
+        <div><img src="./img/myself.jpeg" alt="Piyush" id="myself"></div>
         <h3 class="section__subtitle section__subtitle--aboutme">Undergrad student based in Maharashtra, India</h3>
-        <p id="aboutme-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis eos minima illo accusantium dolorum illum nam, perspiciatis fuga deserunt deleniti. Nemo ea dolorum delectus fugiat molestiae, odit temporibus explicabo?</p>
-        <img src="./img/myself.jpeg" alt="Piyush">
+        <div><p id="aboutme-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis eos minima illo accusantium dolorum illum nam, perspiciatis fuga deserunt deleniti. Nemo ea dolorum delectus fugiat molestiae, odit temporibus explicabo?</p>
+        </div>
     </section>
 
     <!-- Connect with Me -->

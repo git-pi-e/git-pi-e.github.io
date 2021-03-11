@@ -1,0 +1,150 @@
+/* 
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+} */
+
+
+/* :root{
+    --ff-primary: 'Quicksand', sans-serif;
+    --ff-secondary: 'Nunito', sans-serif;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-dark: #272525;
+    --clr-light: #f5f0f0;
+    --clr-accent: #42f08d; */
+
+    /* --fs-h1: 3rem; */
+    /* --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+    
+} */
+
+
+/* General Styles */
+/* body{
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    font-family: var(--ff-primary);
+    /* margin: 5%; */
+    
+    /* font-size: var(--fs-body);
+    line-height: 1.6;
+        
+} */ 
+
+
+/* 
+Section Padding */
+/* .section{
+    padding: 20px ;
+} */
+
+
+
+/* .my-works{
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+
+} */
+
+/* @media(max-width: 800px){
+    :root{
+        --fs-h1: 4.5;
+        --fs-h3: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    
+}
+
+h1, h2, h3{
+    line-height: 1.1;
+    margin: 0;
+
+}
+
+/* h1{font-size: var(--fs-h1);} */
+/* h2{font-size: var(--fs-h2);}
+h3{font-size: var(--fs-h3);} */
+
+/* 
+section titles and subtitles */
+
+/* .section__title{
+    margin-bottom: 16px;
+    
+}
+
+.section__title--intro{
+    font-weight: var(--fw-reg);
+} 
+
+
+
+.section__subtitle{
+    margin: auto;
+    font-size: var(--fs-h3);
+    margin-bottom: 16px;
+}
+
+.section__subtitle--intro,
+.section__subtitle--aboutme{
+    background: var(--clr-accent);
+    font-family: var(--ff-secondary);
+    margin-bottom: 16px;
+}
+
+.section__title--intro strong{
+    font-weight: var(--fw-bold);
+    display: block;
+}
+
+nav{display: none;} */
+ 
+
+
+
+
+/* Intro section */
+/* .intro{
+    position: relative;
+} */
+
+/* @media(min-width: 600px){
+    .intro{
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 16px;
+        grid-template-areas:
+        "img title"
+        "img subtitle" ;
+        grid-template-columns: min-content max-content;
+        
+    }
+
+    .introimg{
+        grid-area:  img;
+        min-width: 250px;
+    }
+
+    .section__subtitle--intro{
+        align-self: start;
+        grid-column: -1 / 1;
+        grid-row: 2;
+        text-align: right;
+        position: relative;
+        left: auto;
+    }
+} */
