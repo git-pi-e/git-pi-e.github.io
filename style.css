@@ -6,7 +6,7 @@
 }
 
 html{
-    font-size: 10px;
+    
     font-family: 'Quicksand', sans-serif;
     color:  #f5f0f0;
     background: #272525;
@@ -36,7 +36,7 @@ section{
 /* navbar */
 header{
     background-color: #42f08d;
-    height: 20px;
+    height: 30px;
 }
 
 .nav-div{
@@ -49,6 +49,7 @@ header .nav-div nav a{
     color: #272525;
     text-decoration: none;
     justify-content: space-between;
+    padding: 10px;
 }
 
 
@@ -60,6 +61,19 @@ header .nav-div nav a{
 .flex{
     display: flex;
 }
+
+/* Intro page */
+strong{
+    display: block;
+    
+}
+
+.intro{
+    background-image: url(./img/front-img.jpg);
+}
+
+
+
 
 
 
