@@ -70,6 +70,11 @@ header .nav-div nav a{
 
 }
 
+.my-works{
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 /* About Me */
