@@ -16,15 +16,18 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="./img/pi-logo.png" alt="mohite-pi">
-        </div>
-        <button class="nav-toggle"></button>
+       
+        <!-- <button class="nav-toggle"></button>
     
     <button class="nav-toggle">
         <span class="nav-button"></span>
-    </button>
-    <div class="nav-div"><nav class="nav">
+    </button> -->
+    <div class="nav-div flex">
+        <span class="logo flex">
+            <img src="./img/pi-logo.png" alt="mohite-pi">
+        </span>
+        
+        <nav class="nav flex">
         
             <a class="nav__list" href="#home">Home</a>
             <a class="nav__list" href="#my-work">My Work</a>
@@ -64,11 +67,13 @@
         <!-- About Me -->
 
     <section class="aboutme" id="about-me">
+    <div id="about-me-box">
         <div class="container"><h2 class="section__title section__title--aboutme">About Me</h2></div>
         <div><img src="./img/myself.jpeg" alt="Piyush" id="myself"></div>
         <h3 class="section__subtitle section__subtitle--aboutme">Undergrad student based in Maharashtra, India</h3>
         <div><p id="aboutme-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis eos minima illo accusantium dolorum illum nam, perspiciatis fuga deserunt deleniti. Nemo ea dolorum delectus fugiat molestiae, odit temporibus explicabo?</p>
         </div>
+    </div>
     </section>
 
     <!-- Connect with Me -->
