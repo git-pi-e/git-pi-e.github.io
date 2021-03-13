@@ -63,10 +63,10 @@ header .nav-div nav a{
 }
 
 /* Intro page */
-strong{
-    display: block;
+/* strong{
+    display: inline-block;
     
-}
+} */
 
 .intro{
     background-image: url(./img/front-img.jpg);
