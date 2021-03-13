@@ -24,6 +24,7 @@ section{
     margin: auto;
     padding: 12%;
     justify-content: center;
+    height: 100vh;
 }
 
 .section__title{
