@@ -62,16 +62,26 @@ header .nav-div nav a{
     display: flex;
 }
 
+
+
+
+
+
+
 /* Intro page */
+
+
 /* strong{
-    display: inline-block;
-    
+    display: inline-block;  
 } */
 
 .intro{
     background-image: url(./img/front-img.jpg);
 }
 
+#myname{
+    display:inline-block
+}
 
 
 
