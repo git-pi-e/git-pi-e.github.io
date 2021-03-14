@@ -5,6 +5,20 @@
     -webkit-font-smotthing: antialiased;
 }
 
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+/* General Styling */
 html{
     
     font-family: 'Quicksand', sans-serif;
@@ -21,8 +35,8 @@ body{
 }
 
 section{
-    margin: auto;
-    padding: 12%;
+    margin: 0;
+    padding: 15%;
     justify-content: center;
     height: 100vh;
 }
@@ -59,13 +73,14 @@ header .nav-div nav a{
 
 
 
+
 /* navbar */
-.navbar{
+#navbar{
     overflow:hidden;
     background-color: #42f08d;
 }
 
-.navbar a{
+#navbar a{
     float: left;
     display: block;
     color: #272525;
@@ -73,9 +88,19 @@ header .nav-div nav a{
     padding: 14px;
     text-decoration: none;
 }
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #272525;
+    color: #42f08d;
+  }
 /* Page content */
 .content {
-    padding: 16px;
+    padding: 0;
   }
   
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -94,7 +119,13 @@ header .nav-div nav a{
 
 
 
+
+
 /* Intro page */
+#intro-div{
+    margin-top: 4em;
+}
+
 
 
 /* strong{
@@ -106,10 +137,12 @@ header .nav-div nav a{
 }
 
 #myname{
-    display:inline-block
+    display:inline-block;
 }
 
-
+#my_work_title{
+    padding: 100px;
+}
 
 
 
@@ -124,6 +157,7 @@ header .nav-div nav a{
     display: flex;
     flex-direction: row;
 }
+
 
 
 
