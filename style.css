@@ -38,14 +38,13 @@ section{
     margin: 0;
     padding: 15%;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .section__title{
     justify-content: center;
 
 }
-
 
 
 /* header{
@@ -126,7 +125,9 @@ header .nav-div nav a{
     margin-top: 4em;
 }
 
-
+#home {
+    height: 100vh;
+}
 
 /* strong{
     display: inline-block;  
@@ -140,13 +141,14 @@ header .nav-div nav a{
     display:inline-block;
 }
 
-#my_work_title{
-    padding: 100px;
-}
 
 
 
 /* My Work */
+#my_work_title{
+    padding: 100px;
+}
+
 .my-work{
     background-image: url(./img/bg-img.jpg);
     margin: 0%;
@@ -156,10 +158,21 @@ header .nav-div nav a{
 .my-works{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
+.work {
+    margin-right: 3%;
+    width: 30%;
+}
 
+work p {
+    text-align: justify;
+}
 
+.section__title--my-work{
+    text-align: center;
+}
 
 /* About Me */
 .aboutme{
@@ -189,4 +202,21 @@ header .nav-div nav a{
 .handles a{
     text-decoration: none;
     color: #42f08d;
+}
+
+
+@media screen and (max-width: 800px) {
+    .work {
+        width: 40%;
+        margin-right: 5%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .work {
+        width: 80%;
+        /* margin-right: 5%; */
+        margin-bottom: 20px;
+    }
 }
