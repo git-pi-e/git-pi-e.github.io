@@ -14,27 +14,16 @@
 </head>
 <body>
 
-    <!-- <header> -->
-        <!-- <button class="nav-toggle"></button>
     
-    <button class="nav-toggle">
-        <span class="nav-button"></span>
-    </button> -->
-    <div id="navbar" >
-        <!-- <span class="logo flex">
-            <img src="./img/pi-logo.png" alt="mohite-pi">
-        </span> -->
-        
-        <!-- <nav class="nav flex"> -->
-        
+    <div id="navbar">
+                
             <a class="nav__list" href="#home">Home</a>
             <a class="nav__list" href="#my-work">My Work</a>
             <a class="nav__list" href="#about-me">About Me</a>
             <a class="nav__list" href="#handles">Connect with Me</a>
-        
-    <!-- </nav> -->
+            
     </div>
-    <!-- </header> -->
+    
 <section class="content">
     <!-- Introduction -->
     <section class="intro" id="home">
@@ -54,34 +43,43 @@
     <section class="my-work" id="my-work">
         <div id="my_work_title"><h2 class="section__title section__title--my-work">What I do</h2></div>
         <div class="my-works">
-            <div class="work">
-                <h3 id="workid1">Learn</h3>
-                <p id="work1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique optio alias laudantium modi blanditiis quas ipsam nulla, voluptas sequi, accusamus saepe non. Molestiae animi quisquam, nam sed minima sit esse?</p>
+            <div class="work-div">
+                <h3 class="workid">Learn</h3>
+                <p class="work-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique optio alias laudantium modi blanditiis quas ipsam nulla, voluptas sequi, accusamus saepe non. Molestiae animi quisquam, nam sed minima sit esse?</p>
             </div>
-            <div class="work"> 
-                <h3 id="workid2">Watch</h3>
-                <p id="work2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, perspiciatis, nesciunt assumenda facilis id error optio, hic tenetur mollitia enim repellat architecto quibusdam! Autem dolorem maxime dignissimos distinctio cum labore?</p>
+            <div class="work-div"> 
+                <h3 class="workid">Watch</h3>
+                <p class="work-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, perspiciatis, nesciunt assumenda facilis id error optio, hic tenetur mollitia enim repellat architecto quibusdam! Autem dolorem maxime dignissimos distinctio cum labore?</p>
             </div>
-            <div class="work">
-                <h3 id="workid3">Sleep</h3>
-                <p id="work3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias natus molestiae eum nihil consequatur doloremque neque facilis at, expedita aliquid, aut, porro accusantium maiores vel nisi nemo sapiente rerum iusto?</p>
+            <div class="work-div">
+                <h3 class="workid">Sleep</h3>
+                <p class="work-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias natus molestiae eum nihil consequatur doloremque neque facilis at, expedita aliquid, aut, porro accusantium maiores vel nisi nemo sapiente rerum iusto?</p>
             </div>
         </div>
     </section>
 
-        <!-- About Me -->
 
+
+                    <!-- About Me -->
     <section class="aboutme" id="about-me">
-    <div id="about-me-box">
+    <div id="about-me-box-main">
         <div class="container"><h2 class="section__title section__title--aboutme">About Me</h2></div>
-        <div><img src="./img/myself.jpeg" alt="Piyush" id="myself"></div>
-        <h3 class="section__subtitle section__subtitle--aboutme">Undergrad student based in Maharashtra, India</h3>
-        <div><p id="aboutme-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis eos minima illo accusantium dolorum illum nam, perspiciatis fuga deserunt deleniti. Nemo ea dolorum delectus fugiat molestiae, odit temporibus explicabo?</p>
+        
+        <div class="aboutme-container ">
+            <div class="aboutme-text work-flex" style="flex-grow: 7">
+                <h3 class="section__subtitle section__subtitle--aboutme">Undergrad student based in Maharashtra, India</h3>
+                <p id="aboutme-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis eos minima illo accusantium dolorum illum nam, perspiciatis fuga deserunt deleniti. Nemo ea dolorum delectus fugiat molestiae, odit temporibus explicabo?</p>
+            </div>
+            <div class="myself-img work-flex" style="flex-grow: 2; align-self: center;">
+                <img src="./img/myself.jpeg" alt="Piyush" id="myself">
+            </div>
         </div>
     </div>
     </section>
 
-    <!-- Connect with Me -->
+
+
+                   <!-- Connect with Me -->
     <section class="connect" id="handles">
         <h2 class="section__title section__title--connect">Connect With Me</h2>
         <div class="handles">

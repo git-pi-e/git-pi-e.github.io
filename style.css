@@ -36,7 +36,7 @@ body{
 
 section{
     margin: 0;
-    padding: 15%;
+    padding: 12%;
     justify-content: center;
     /* height: 100vh; */
 }
@@ -45,29 +45,6 @@ section{
     justify-content: center;
 
 }
-
-
-/* header{
-    background-color: #42f08d;
-    height: 30px;
-}
-.nav-div{
-    max-width: 1152px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-header .nav-div nav a{
-    color: #272525;
-    text-decoration: none;
-    justify-content: space-between;
-    padding: 10px;
-}
-.logo img{
-    max-width: 10%; 
-}
-.flex{
-    display: flex;
-} */
 
 
 
@@ -129,12 +106,10 @@ header .nav-div nav a{
     height: 100vh;
 }
 
-/* strong{
-    display: inline-block;  
-} */
-
 .intro{
-    background-image: url(./img/front-img.jpg);
+    background-image: url(./img/intro.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 #myname{
@@ -146,12 +121,16 @@ header .nav-div nav a{
 
 /* My Work */
 #my_work_title{
-    padding: 100px;
+    padding: 70px;
+    border-radius: 1em;
+    border-width: 1px;
 }
 
 .my-work{
     background-image: url(./img/bg-img.jpg);
     margin: 0%;
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -161,23 +140,55 @@ header .nav-div nav a{
     flex-wrap: wrap;
 }
 
-.work {
+.work-div {
     margin-right: 3%;
     width: 30%;
+    background-image: url(./img/work-bg.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    border: #272525;
+    border-width: 1em;
+    border-radius: 5%;
 }
 
-work p {
+.work-div p {
     text-align: justify;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
 }
 
 .section__title--my-work{
     text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border: #f5f0f0;
+    border-width: 1px;
+
 }
+
+.workid{
+    text-align: center;
+    color: #272525;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.work-text{
+    color: #363333;
+    font-weight: 300;
+    
+}
+
+
+
 
 /* About Me */
 .aboutme{
     background-image: url(./img/abtme-img.jpg);
     margin: 0%;
+    background-position: center;
+    background-size: cover;
 
 }
 
@@ -187,10 +198,34 @@ work p {
     margin-right: 5%;
 }
 
+/* .section__title--aboutme{    
+} */
 
+#about-me-box-main{
+    background:url(./img/aboutme-div.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 1em;
+    border-radius: 7%;
+}
 
+.aboutme-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
 
+.section__title--aboutme{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border: #f5f0f0;
+    border-width: 1px;
+}
 
+.section__subtitle--aboutme{
+    font-weight: 600;
+}
 
 
 
@@ -202,11 +237,32 @@ work p {
 .handles a{
     text-decoration: none;
     color: #42f08d;
+    border:#363333;
+    }
+
+.section__title--connect{
+    text-align:start;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border: #f5f0f0;
+    border-width: 1px;
+}
+
+.folder{
+        border: #42f08d;
+}
+
+.handles{
+    justify-content: center;
 }
 
 
-@media screen and (max-width: 800px) {
-    .work {
+
+
+
+
+@media screen and (max-width: 850px) {
+    .work-div {
         width: 40%;
         margin-right: 5%;
         margin-bottom: 20px;
@@ -214,7 +270,7 @@ work p {
 }
 
 @media screen and (max-width: 600px) {
-    .work {
+    .work-div {
         width: 80%;
         /* margin-right: 5%; */
         margin-bottom: 20px;
