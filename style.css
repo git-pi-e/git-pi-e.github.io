@@ -53,7 +53,8 @@ section{
 /* navbar */
 #navbar{
     overflow:hidden;
-    background-color: #42f08d;
+    background-color: #ffd000;
+    color: #272525;
 }
 
 #navbar a{
@@ -66,13 +67,13 @@ section{
 }
 
 #navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #272525;
+    color: #ffd000;
   }
   
   #navbar a.active {
     background-color: #272525;
-    color: #42f08d;
+    color: #ffd000;
   }
 /* Page content */
 .content {
@@ -100,6 +101,7 @@ section{
 /* Intro page */
 #intro-div{
     margin-top: 4em;
+    border-color: #f5f0f0;
 }
 
 #home {
@@ -107,7 +109,7 @@ section{
 }
 
 .intro{
-    background-image: url(./img/intro.jpg);
+    background-image: url(./img/intro.png);
     background-position: center;
     background-size: cover;
 }
@@ -116,6 +118,9 @@ section{
     display:inline-block;
 }
 
+#name-div{
+    border-color: #f5f0f0;
+}
 
 
 
@@ -236,7 +241,7 @@ section{
 /* Connect With Me */
 .handles a{
     text-decoration: none;
-    color: #42f08d;
+    color: #ffd000;
     border:#363333;
     }
 
@@ -249,11 +254,15 @@ section{
 }
 
 .folder{
-        border: #42f08d;
+        border: #ffd000;
 }
 
 .handles{
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40%;
+    
 }
 
 
