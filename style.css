@@ -22,7 +22,7 @@
 html{
     
     font-family: 'Quicksand', sans-serif;
-    color:  #f5f0f0;
+    color:  #ffd000;
     background: #272525;
     scroll-behavior: smooth;
     overflow-y: scroll;
@@ -55,6 +55,7 @@ section{
     overflow:hidden;
     background-color: #ffd000;
     color: #272525;
+    z-index: 100000;
 }
 
 #navbar a{
@@ -101,7 +102,7 @@ section{
 /* Intro page */
 #intro-div{
     margin-top: 4em;
-    border-color: #f5f0f0;
+    border-color: #ffd000;
 }
 
 #home {
@@ -255,18 +256,27 @@ section{
 
 .folder{
         border: #ffd000;
+        padding: 20px;
+
 }
 
 .handles{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 40%;
+    
     
 }
+.link{
+     border: 1px solid #ffd000;
+     padding: 10px;
+     border-radius: 10%;   
+}
 
-
-
+.section__title--connect{
+    color: #ffd000;
+    text-align: center;
+}
 
 
 
