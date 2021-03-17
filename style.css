@@ -41,10 +41,7 @@ section{
     /* height: 100vh; */
 }
 
-.section__title{
-    justify-content: center;
 
-}
 
 
 
@@ -120,7 +117,7 @@ section{
 }
 
 #name-div{
-    border-color: #f5f0f0;
+    border-color: #ffd000;
 }
 
 
@@ -168,7 +165,7 @@ section{
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
-    border: #f5f0f0;
+    border: #ffd000;
     border-width: 1px;
 
 }
