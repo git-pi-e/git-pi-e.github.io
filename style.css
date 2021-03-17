@@ -194,7 +194,7 @@ section{
     background-image: url(./img/abtme-img.jpg);
     margin: 0%;
     background-position: center;
-    background-size: cover;
+    background-size:contain;
 
 }
 
@@ -204,8 +204,6 @@ section{
     margin-right: 5%;
 }
 
-/* .section__title--aboutme{    
-} */
 
 #about-me-box-main{
     background:url(./img/aboutme-div.jpg);
@@ -225,12 +223,13 @@ section{
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
-    border: #f5f0f0;
-    border-width: 1px;
+    
 }
 
 .section__subtitle--aboutme{
     font-weight: 600;
+    color: #272525;
+    
 }
 
 
